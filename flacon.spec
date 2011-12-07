@@ -16,6 +16,7 @@ Requires:	vorbis-tools
 Requires:	lame
 Requires:	vorbisgain
 Requires:	mp3gain
+BuildRequires:	desktop-file-utils
 Obsoletes:	%name < %version
 
 %description
