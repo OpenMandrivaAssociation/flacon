@@ -2,7 +2,7 @@ Summary:	Audio file splitter and converter
 Name:		flacon
 Version:	0.6.0
 Release:	1
-Group:		Graphical desktop/KDE4
+Group:		Sound
 License:	GPL
 URL:		http://kde-apps.org/content/show.php/Flacon?content=113388
 Source:		%{name}-%{version}.tgz
