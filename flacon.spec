@@ -1,11 +1,11 @@
 Summary:	Audio file splitter and converter
 Name:		flacon
-Version:	0.6.0
+Version:	0.6.1
 Release:	1
 Group:		Sound
 License:	GPL
 URL:		http://kde-apps.org/content/show.php/Flacon?content=113388
-Source:		%{name}-%{version}.tgz
+Source0:	%{name}-%{version}.tgz
 Requires:	python >= 2.6
 Requires:	python-qt4
 Requires:	shntool
