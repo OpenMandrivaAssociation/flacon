@@ -1,7 +1,7 @@
 Summary:	Audio file splitter and converter
 Name:		flacon
 Version:	0.6.1
-Release:	1
+Release:	2
 Group:		Sound
 License:	GPL
 URL:		http://kde-apps.org/content/show.php/Flacon?content=113388
@@ -11,13 +11,14 @@ Requires:	python-qt4
 Requires:	shntool
 Requires:	flac
 Requires:	mac
-Requires:	libwavpack1
+Requires:	wavpack
 Requires:	vorbis-tools
 Requires:	lame
 Requires:	vorbisgain
 Requires:	mp3gain
 BuildRequires:	desktop-file-utils
-Obsoletes:	%name < %version
+
+%define debug_package %{nil}
 
 %description
 Flacon extracts individual tracks from one big audio file
@@ -44,5 +45,18 @@ desktop-file-install --vendor="" \
 %files 
 %{_bindir}/%{name}
 %{_datadir}/%{name}
-%{_datadir}/applications
-%{_datadir}/icons
+%{_datadir}/applications/*
+%{_datadir}/icons/*
+
+
+%changelog
+* Mon Mar 26 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.6.1-1
++ Revision: 787124
+- version update 0.6.1
+
+* Thu Dec 08 2011 Alexander Khrukin <akhrukin@mandriva.org> 0.6.0-1
++ Revision: 738768
+- BR fix
+- Group fix
+- imported package flacon
+
