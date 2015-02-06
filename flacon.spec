@@ -1,7 +1,7 @@
 Summary:	Audio file splitter and converter
 Name:		flacon
 Version:	1.0.1
-Release:	1
+Release:	2
 Group:		Sound
 License:	GPLv3
 URL:		http://flacon.github.io/
