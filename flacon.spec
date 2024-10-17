@@ -4,7 +4,7 @@ Version:	1.0.1
 Release:	2
 Group:		Sound
 License:	GPLv3
-URL:		http://flacon.github.io/
+URL:		https://flacon.github.io/
 # https://github.com/flacon/flacon/archive/v%{version}.tar.gz
 Source0:	%{name}-%{version}.tar.gz
 BuildRequires:  hicolor-icon-theme
