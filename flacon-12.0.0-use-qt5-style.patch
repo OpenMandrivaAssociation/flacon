@@ -1,0 +1,39 @@
+diff -rupN flacon-12.0.0.old/gui/mainwindow.ui flacon-12.0.0/gui/mainwindow.ui
+--- flacon-12.0.0.old/gui/mainwindow.ui	2025-02-14 15:36:02.000000000 +0100
++++ flacon-12.0.0/gui/mainwindow.ui	2025-07-21 16:11:48.849352931 +0200
+@@ -27,7 +27,7 @@
+     <item>
+      <widget class="QSplitter" name="splitter">
+       <property name="orientation">
+-       <enum>Qt::Orientation::Horizontal</enum>
++       <enum>Qt::Horizontal</enum>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,1">
+@@ -281,7 +281,7 @@ If you surround sections of text that co
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+-           <enum>Qt::Orientation::Vertical</enum>
++           <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+@@ -307,7 +307,7 @@ If you surround sections of text that co
+         <bool>true</bool>
+        </property>
+        <property name="selectionMode">
+-        <enum>QAbstractItemView::SelectionMode::ExtendedSelection</enum>
++        <enum>QAbstractItemView::ExtendedSelection</enum>
+        </property>
+        <property name="iconSize">
+         <size>
+@@ -507,7 +507,7 @@ If you surround sections of text that co
+     <bool>true</bool>
+    </property>
+    <property name="menuRole">
+-    <enum>QAction::MenuRole::ApplicationSpecificRole</enum>
++    <enum>QAction::ApplicationSpecificRole</enum>
+    </property>
+   </action>
+   <action name="actionStartConvertSelected">

@@ -1,0 +1,35 @@
+diff -rupN flacon-12.0.0.old/gui/mainwindow.ui flacon-12.0.0/gui/mainwindow.ui
+--- flacon-12.0.0.old/gui/mainwindow.ui	2025-07-21 16:11:48.849352931 +0200
++++ flacon-12.0.0/gui/mainwindow.ui	2025-07-21 16:22:02.980886254 +0200
+@@ -45,6 +45,9 @@
+              <property name="text">
+               <string>Directory:</string>
+              </property>
++             <property name="buddy">
++              <cstring>outDirEdit</cstring>
++             </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+@@ -181,6 +184,9 @@ If you surround sections of text that co
+              <property name="text">
+               <string>Album performer:</string>
+              </property>
++             <property name="buddy">
++              <cstring>tagAlbumPerformerEdit</cstring>
++             </property>
+             </widget>
+            </item>
+            <item row="4" column="1" colspan="2">
+@@ -611,9 +617,11 @@ If you surround sections of text that co
+   <tabstop>tagGenreEdit</tabstop>
+   <tabstop>tagYearEdit</tabstop>
+   <tabstop>tagPerformerEdit</tabstop>
++  <tabstop>tagAlbumPerformerEdit</tabstop>
+   <tabstop>tagAlbumEdit</tabstop>
+   <tabstop>tagStartNumEdit</tabstop>
+   <tabstop>codepageCombo</tabstop>
++  <tabstop>editTagsButton</tabstop>
+   <tabstop>trackView</tabstop>
+  </tabstops>
+  <resources/>
