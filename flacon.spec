@@ -3,14 +3,14 @@
 
 Summary:	Audio file splitter and converter
 Name:	flacon
-Version:	12.0.0
-Release:	2
+Version:	13.0.2
+Release:	1
 License:	LGPL-2.1-or-later
 Group:	Sound
 Url:		https://flacon.github.io/
 Source0:	https://github.com/flacon/flacon/archive/v%{version}/%{name}-%{version}.tar.gz
-Patch0:	flacon-12.0.0-use-qt5-style.patch
-Patch1:	flacon-12.0.0-fix-tab-order-for-tag-fields.patch
+# dropped (no longer applies): Patch0:	flacon-13.0.2-use-qt5-style.patch
+# dropped (no longer applies): Patch1:	flacon-13.0.2-fix-tab-order-for-tag-fields.patch
 # For check
 BuildRequires:	appstream-util
 BuildRequires:	desktop-file-utils
